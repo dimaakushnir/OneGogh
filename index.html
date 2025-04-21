@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <title>One Gogh</title>
+</head>
+
+<body>
+    <svg display="none">
+    <symbol id="arrow" viewBox="0 0 12 12">
+        <g>
+            <path d="M1 11L11 1M11 1L2.62952 1.0778M11 1L10.9222 9.37048" />
+        </g>
+    </symbol>
+</svg>
+    <div class="wrapper">
+        <div class="popup info-popup hide" data-info="1">
+            <div class="info-popup__body">
+                <div class="info-popup__content">
+                    <a href="" class="info-popup__close">
+                        <img src="img/icons/info-close.svg" alt="info-close">
+                    </a>
+                    <div class="info-popup__top top-info-popup">
+                        <div class="top-info-popup__icon">
+                            <img src="img/solutions/01.svg" alt="solutions-icon">
+                        </div>
+                        <div class="top-info-popup__title">
+                            Примеры успешных кейсов<br>
+                            для импортеров:
+                        </div>
+                    </div>
+                    <ul class="info-popup__items">
+                        <li class="info-popup__item">
+                            <span>
+                                <p>
+                                    Компания из России перевела $200,000 в Турцию для закупки оборудования. Платёж
+                                    прошёл через дружественную юрисдикцию за 2 рабочих дня.
+                                </p>
+                            </span>
+                        </li>
+                        <li class="info-popup__item">
+                            <span>
+                                <p>
+                                    Клиент оплатил €150,000 в Италию за поставку строительных материалов, используя
+                                    USDT, что позволило сократить расходы на конвертацию валюты.
+                                </p>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="popup info-popup hide" data-info="2">
+            <div class="info-popup__body">
+                <div class="info-popup__content">
+                    <a href="" class="info-popup__close">
+                        <img src="img/icons/info-close.svg" alt="info-close">
+                    </a>
+                    <div class="info-popup__top top-info-popup">
+                        <div class="top-info-popup__icon">
+                            <img src="img/solutions/02.svg" alt="solutions-icon">
+                        </div>
+                        <div class="top-info-popup__title">
+                            Примеры успешных кейсов<br>
+                            для экспортеров:
+                        </div>
+                    </div>
+                    <ul class="info-popup__items">
+                        <li class="info-popup__item">
+                            <span>
+                                <p>
+                                    Компания получила $75,000 за экспорт текстильной продукции в Китай через ускоренную
+                                    схему возврата экспортной выручки.
+                                </p>
+                            </span>
+                        </li>
+                        <li class="info-popup__item">
+                            <span>
+                                <p>
+                                    Экспортер из Казахстана успешно принял €50,000 от клиента в Германии на счёт в
+                                    альтернативной юрисдикции.
+                                </p>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="popup info-popup hide" data-info="3">
+            <div class="info-popup__body">
+                <div class="info-popup__content">
+                    <a href="" class="info-popup__close">
+                        <img src="img/icons/info-close.svg" alt="info-close">
+                    </a>
+                    <div class="info-popup__top top-info-popup">
+                        <div class="top-info-popup__icon">
+                            <img src="img/solutions/03.svg" alt="solutions-icon">
+                        </div>
+                        <div class="top-info-popup__title">
+                            Примеры успешных кейсов<br>
+                            для логистических компаний:
+                        </div>
+                    </div>
+                    <ul class="info-popup__items">
+                        <li class="info-popup__item">
+                            <span>
+                                <p>
+                                    Логистическая фирма из Индии получила $120,000 за услуги международной перевозки
+                                    грузов в течение 2 рабочих дней.
+                                </p>
+                            </span>
+                        </li>
+                        <li class="info-popup__item">
+                            <span>
+                                <p>
+                                    Оплачены $90,000 за фрахт морского контейнера через криптоинструменты с минимальными
+                                    комиссиями.
+                                </p>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="popup consultation-popup">
+            <div class="consultation-popup__body">
+                <div class="consultation-popup__content">
+                    <h3 class="consultation-popup__title">Получите консультацию</h3>
+                    <div class="consultation-popup__text">
+                        <p>
+                            Заполните форму, менеджер свяжется с вами для обсуждения
+                        </p>
+                    </div>
+                    <form action="#" class="consultation-popup__form form-contact">
+                        <div class="form-contact__row">
+                            <div class="form-contact__column form-contact__column_big">
+                                <div class="form-contact__label">Name</div>
+                                <input placeholder="Your name" autocomplete='off' type='text' name='form[]'
+                                    class='form-contact__input'>
+                            </div>
+                            <div class="form-contact__column form-contact__column_big">
+                                <div class="form-contact__label">E-mail</div>
+                                <input placeholder="noname@gmail.com" autocomplete='off' type='email' name='form[]'
+                                    class='form-contact__input'>
+                            </div>
+                            <div class="form-contact__column form-contact__column_big">
+                                <div class="form-contact__label form-item_phone">Phone</div>
+                                <input placeholder="000-000-00-00" autocomplete='off' type='tel' name='form[]'
+                                    class='form-contact__input phone'>
+                            </div>
+                            <div class="form-contact__column form-contact__column_big">
+                                <div class="form-contact__label">Messager</div>
+                                <input placeholder="Change" autocomplete='off' type='text' name='form[]'
+                                    class='form-contact__input'>
+                            </div>
+                            <div class="form-contact__column form-contact__column_big">
+                                <div class="form-contact__label">Your comment</div>
+                                <input placeholder="Write your comment" autocomplete='off' type='text' name='form[]'
+                                    class='form-contact__input'>
+                            </div>
+                            <div class="form-contact__bottom">
+                                <div class="form-contact__checkbox checkbox">
+                                    <input checked id="formContactCheckbox" autocomplete='off' type='checkbox'
+                                        name='form[]' class='checkbox__input'>
+                                    <label for="formContactCheckbox" class="checkbox__label">
+                                        By filling out the form, you agree<br>
+                                        to the privacy policy.
+                                    </label>
+                                </div>
+                                <button type='submit' class='form-contact__btn btn'>
+                                    <span>Submit the application</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+    <div class="header__main">
+        <div class="header__container container">
+            <div class="header__row">
+                <div class="header__column">
+                    <a href="index.html" class="header__logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header__column">
+                    <nav class="header__menu menu-header" data-da="mobile-header__body, 1, 1024.98">
+                        <ul class="menu-header__list">
+                            <li class="menu-header__item">
+                                <a href="" class="menu-header__link link-scroll" data-scroll="home">Home</a>
+                            </li>
+                            <li class="menu-header__item">
+                                <a href="" class="menu-header__link link-scroll" data-scroll="about">About</a>
+                            </li>
+                            <li class="menu-header__item">
+                                <a href="" class="menu-header__link link-scroll" data-scroll="solutions">Solutions</a>
+                            </li>
+                            <li class="menu-header__item">
+                                <a href="" class="menu-header__link link-scroll" data-scroll="services">Services</a>
+                            </li>
+                            <li class="menu-header__item">
+                                <a href="" class="menu-header__link link-scroll" data-scroll="benefits">Benefits</a>
+                            </li>
+                            <li class="menu-header__item">
+                                <a href="" class="menu-header__link link-scroll" data-scroll="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__column">
+                    <div class="header__language language-header" data-da="mobile-header__body, 0, 1024.98">
+                        <div class="language-header__dropdown dropdown">
+                            <button class='dropdown__btn'>ENG</button>
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item selected" data-dropdown="">ENG</li>
+                                <li class="dropdown__item" data-dropdown="">RUS</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="" class="header__btn btn link-scroll" data-scroll="contact"
+                        data-da="mobile-header__body, 2, 1024.98">
+                        <span>Contact</span>
+                    </a>
+                    <button class="header__burger">
+                        <span></span><span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__mobile mobile-header">
+        <div class="mobile-header__container container">
+            <div class="mobile-header__inner">
+                <div class="mobile-header__body"></div>
+            </div>
+        </div>
+    </div>
+</header>
+        <main class="one-gogh">
+            <section class="one-gogh__main main-one-gogh" id="home">
+                <div class="main-one-gogh__body">
+                    <div class="main-one-gogh__img ibg">
+                        <img src="img/main/main-bg.jpg" alt="main-img">
+                    </div>
+                    <div class="main-one-gogh__valute valute-main-one-gogh">
+                        <div class="valute-main-one-gogh__dollar">
+                            <img src="img/main/valute/dollar.png" alt="dollar">
+                        </div>
+                        <div class="valute-main-one-gogh__yen">
+                            <img src="img/main/valute/yen.png" alt="yen">
+                        </div>
+                        <div class="valute-main-one-gogh__euro">
+                            <img src="img/main/valute/euro.png" alt="euro">
+                        </div>
+                        <div class="valute-main-one-gogh__dollar-2">
+                            <img src="img/main/valute/dollar-2.png" alt="dollar">
+                        </div>
+                    </div>
+                    <div class="main-one-gogh__container container">
+                        <div class="main-one-gogh__content">
+                            <h1 class="main-one-gogh__title">
+                                International<br>
+                                Payments <span><span>Anywhere</span></span><br>
+                                in the World
+                            </h1>
+                            <div class="main-one-gogh__text">
+                                <p>
+                                    Make secure and fast payments worldwide. Pay contracts and invoices, ensuring
+                                    reliable financial logistics for your business.
+                                </p>
+                            </div>
+                            <ul class="main-one-gogh__list list">
+                                <li class="list__item">Convenience</li>
+                                <li class="list__item">Reliability</li>
+                                <li class="list__item">Security</li>
+                            </ul>
+                            <a href="" class="main-one-gogh__btn btn popup-consultation-open"><span>Try now</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-one-gogh__info info-main-one-gogh">
+                    <div class="info-main-one-gogh__container container">
+                        <div class="info-main-one-gogh__clients clients-main-one-gogh">
+                            <div class="clients-main-one-gogh__images">
+                                <div class="clients-main-one-gogh__image">
+                                    <img src="img/main/clients/01.png" alt="client-img">
+                                </div>
+                                <div class="clients-main-one-gogh__image">
+                                    <img src="img/main/clients/02.png" alt="client-img">
+                                </div>
+                                <div class="clients-main-one-gogh__image">
+                                    <img src="img/main/clients/03.png" alt="client-img">
+                                </div>
+                            </div>
+                            <div class="clients-main-one-gogh__text">
+                                3000+<br>
+                                satisfied clients
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <svg width="0" height="0">
+                    <defs>
+                        <clipPath id="fullscreenmask" clipPathUnits="objectBoundingBox"
+                            transform="scale(0.0005208333, 0.0009494986)">
+                            <rect x="-233.917" y="-1180" width="2543.25" height="1666" rx="214"
+                                transform="rotate(15.489 -233.917 -1232)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <svg width="0" height="0">
+                    <defs>
+                        <clipPath id="fullscreenmasktablet" clipPathUnits="objectBoundingBox"
+                            transform="scale(0.002666667, 0.001497005)">
+                            <rect width="918.923" height="1620.9" rx="125"
+                                transform="matrix(0.937084 0.349105 -0.20189 0.979408 -161.573 -1235)"></rect>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <svg width="0" height="0">
+                    <defs>
+                        <clipPath id="fullscreenmaskmob1" clipPathUnits="objectBoundingBox"
+                            transform="scale(0.002666667, 0.001497005)">
+                            <rect width="918.923" height="1600.9" rx="125"
+                                transform="matrix(0.937084 0.349105 -0.20189 0.979408 -161.573 -1235)"></rect>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <svg width="0" height="0">
+                    <defs>
+                        <clipPath id="fullscreenmaskmob2" clipPathUnits="objectBoundingBox"
+                            transform="scale(0.002666667, 0.001497005)">
+                            <rect width="918.923" height="1570.9" rx="125"
+                                transform="matrix(0.937084 0.349105 -0.20189 0.979408 -161.573 -1235)"></rect>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </section>
+            <section class="one-gogh__about about" id="about">
+                <div class="about__container container">
+                    <div class="about__row">
+                        <div class="about__column">
+                            <div class="about__info">
+                                <div class="about__video">
+                                    <video autoplay="" muted="" loop="" playsinline="">
+                                        <source src="img/about/video.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="about__achievement achievement-about">
+                                    <div
+                                        class="achievement-about__item item-achievement-about item-achievement-about_1">
+                                        <div class="item-achievement-about__content">
+                                            <div class="item-achievement-about__title">50+ offices</div>
+                                            <div class="item-achievement-about__text">All over the world</div>
+                                        </div>
+                                        <div class="item-achievement-about__icon">
+                                            <img src="img/about/icons/01.svg" alt="achievement-about-icon">
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="achievement-about__item item-achievement-about item-achievement-about_2">
+                                        <div class="item-achievement-about__content">
+                                            <div class="item-achievement-about__title">100+ countries</div>
+                                            <div class="item-achievement-about__text">
+                                                Translations are available in<br>
+                                                any region, from Asia to America
+                                            </div>
+                                        </div>
+                                        <div class="item-achievement-about__icon">
+                                            <img src="img/about/icons/02.svg" alt="achievement-about-icon">
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="achievement-about__item item-achievement-about item-achievement-about_3">
+                                        <div class="item-achievement-about__content">
+                                            <div class="item-achievement-about__title">99.9% satisfied clients</div>
+                                            <div class="item-achievement-about__text">
+                                                10 years of experience<br>
+                                                and impeccable reputation
+                                            </div>
+                                        </div>
+                                        <div class="item-achievement-about__icon">
+                                            <img src="img/about/icons/03.svg" alt="achievement-about-icon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__column">
+                            <div class="about__content">
+                                <div class="about__subtitle subtitle">About the Company</div>
+                                <h2 class="about__title">
+                                    Global<br>
+                                    Financial <span><span>Solutions</span></span><br>
+                                    for Your Business
+                                </h2>
+                                <div class="about__text">
+                                    <p>
+                                        1Gogh helps businesses perform international transfers with maximum efficiency.
+                                        Our extensive network of partners and years of experience ensure the safety and
+                                        speed of each transaction.
+                                    </p>
+                                </div>
+                                <a href="" class="about__btn btn">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="one-gogh__bg">
+                <div class="one-gogh__bg-body">
+                    <section class="one-gogh__solutions solutions" id="solutions">
+                        <div class="solutions__container container">
+                            <div class="solutions__subtitle subtitle">Business Solutions</div>
+                            <h2 class="solutions__title">
+                                Payment Solutions<br>
+                                for <span><span>Every Need</span></span>
+                            </h2>
+                            <div class="solutions__row">
+                                <div class="solutions__column">
+                                    <div class="solutions__item item-solutions">
+                                        <div class="item-solutions__top">
+                                            <div class="item-solutions__icon">
+                                                <img src="img/solutions/01.svg" alt="solutions-icon">
+                                            </div>
+                                            <div class="item-solutions__info">
+                                                <a href="" class="item-solutions__info-btn" data-info="1">
+                                                    <img src="img/solutions/info.svg" alt="info-icon">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item-solutions__title">For Importers:</div>
+                                        <div class="item-solutions__text">
+                                            <p>
+                                                Payment of international contracts and invoices
+                                            </p>
+                                            <p>
+                                                Extensive network of payment agents
+                                            </p>
+                                            <p>
+                                                International payment logistics
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="solutions__column">
+                                    <div class="solutions__item item-solutions">
+                                        <div class="item-solutions__top">
+                                            <div class="item-solutions__icon">
+                                                <img src="img/solutions/02.svg" alt="solutions-icon">
+                                            </div>
+                                            <div class="item-solutions__info">
+                                                <a href="" class="item-solutions__info-btn" data-info="2">
+                                                    <img src="img/solutions/info.svg" alt="info-icon">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item-solutions__title">For Exporters:</div>
+                                        <div class="item-solutions__text">
+                                            <p>
+                                                Receipt of payments from international clients
+                                            </p>
+                                            <p>
+                                                Payment of foreign invoices
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="solutions__column">
+                                    <div class="solutions__item item-solutions">
+                                        <div class="item-solutions__top">
+                                            <div class="item-solutions__icon">
+                                                <img src="img/solutions/03.svg" alt="solutions-icon">
+                                            </div>
+                                            <div class="item-solutions__info">
+                                                <a href="" class="item-solutions__info-btn" data-info="3">
+                                                    <img src="img/solutions/info.svg" alt="info-icon">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item-solutions__title">For Logistics Companies:</div>
+                                        <div class="item-solutions__text">
+                                            <p>
+                                                Payment of international transportation expenses
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="solutions__column">
+                                    <div class="solutions__item item-solutions">
+                                        <div class="item-solutions__top">
+                                            <div class="item-solutions__icon">
+                                                <img src="img/solutions/04.svg" alt="solutions-icon">
+                                            </div>
+                                        </div>
+                                        <div class="item-solutions__title">For Partner Agents:</div>
+                                        <div class="item-solutions__text">
+                                            <p>
+                                                Open to collaboration
+                                            </p>
+                                            <p>
+                                                Flexible terms and competitive fees
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="solutions__bottom">
+                                <a href="" class="solutions__btn btn popup-consultation-open">Order a consultation</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="one-gogh__services services" id="services">
+                        <div class="services__container container">
+                            <div class="services__row">
+                                <div class="services__column">
+                                    <div class="services__content">
+                                        <div class="services__subtitle subtitle">Our Services</div>
+                                        <h2 class="services__title">
+                                            Comprehensive Services for Your Business
+                                        </h2>
+                                        <div class="services__items">
+                                            <div class="services__items-column">
+                                                <div class="services__item item-services">
+                                                    <div class="item-services__number">
+                                                        01
+                                                    </div>
+                                                    <div class="item-services__text">
+                                                        Payment of international contracts and invoices
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="services__items-column">
+                                                <div class="services__item item-services">
+                                                    <div class="item-services__number">
+                                                        02
+                                                    </div>
+                                                    <div class="item-services__text">
+                                                        Management of export revenues
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="services__items-column">
+                                                <div class="services__item item-services">
+                                                    <div class="item-services__number">
+                                                        03
+                                                    </div>
+                                                    <div class="item-services__text">
+                                                        Payment for supplies and services in companies that do not work
+                                                        with
+                                                        cryptocurrency
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="services__items-column">
+                                                <div class="services__item item-services">
+                                                    <div class="item-services__number">
+                                                        04
+                                                    </div>
+                                                    <div class="item-services__text">
+                                                        Transfers in foreign currency using crypto instruments
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="services__bottom">
+                                            <a href="" class="services__btn btn popup-consultation-open">Try now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__image">
+                            <img src="img/services/img.png" alt="services-img">
+                            <div class="services__valute valute-services">
+                                <div class="valute-services__dollar">
+                                    <img src="img/services/valute/dollar.png" alt="dollar">
+                                </div>
+                                <div class="valute-services__yen">
+                                    <img src="img/services/valute/yen.png" alt="yen">
+                                </div>
+                                <div class="valute-services__euro">
+                                    <img src="img/services/valute/euro.png" alt="euro">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="one-gogh__bg-img">
+                    <img src="img/services/boy.png" alt="boy">
+                </div>
+                <svg width="0" height="0">
+                    <defs>
+                        <clipPath id="greybg" clipPathUnits="objectBoundingBox" transform="scale(0.0003937, 0.0004978)">
+                            <rect x="83.9609" y="-50" width="2543.25" height="1462.29" rx="214"
+                                transform="rotate(16.0626 83.9609 -50)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <section class="one-gogh__transfers transfers">
+                <div class="transfers__body">
+                    <div class="transfers__container container">
+                        <div class="transfers__content">
+                            <div class="transfers__subtitle subtitle">Global Transfers</div>
+                            <h2 class="transfers__title">
+                                International Payments<br>
+                                to Over <span><span>100 Countries</span></span>
+                            </h2>
+                            <div class="transfers__text">
+                                <p>
+                                    Provides worldwide payment access, covering Europe, Asia, the Americas, and Africa.
+                                    We ensure transparency and security in all transactions, supporting your success in
+                                    international relations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="transfers__countres countres-transfers">
+                    <div class="countres-transfers__map">
+                        <img src="img/map.png" alt="map">
+                        <div class="countres-transfers__items">
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_1">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/canada.png" alt="canada">
+                                </div>
+                                <div class="item-countres-transfers__name">Canada</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_2">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/spain.png" alt="spain">
+                                </div>
+                                <div class="item-countres-transfers__name">Spain</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_3">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/france.png" alt="france">
+                                </div>
+                                <div class="item-countres-transfers__name">France</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_4">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/italy.png" alt="italy">
+                                </div>
+                                <div class="item-countres-transfers__name">Italy</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_5">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/germany.png" alt="germany">
+                                </div>
+                                <div class="item-countres-transfers__name">Germany</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_6">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/kazakhstan.png" alt="kazakhstan">
+                                </div>
+                                <div class="item-countres-transfers__name">Kazakhstan</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_7">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/china.png" alt="china">
+                                </div>
+                                <div class="item-countres-transfers__name">China</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_8">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/indonesia.png" alt="indonesia">
+                                </div>
+                                <div class="item-countres-transfers__name">Indonesia</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_9">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/usa.png" alt="usa">
+                                </div>
+                                <div class="item-countres-transfers__name">USA</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_10">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/mexica.png" alt="mexica">
+                                </div>
+                                <div class="item-countres-transfers__name">Mexica</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_11">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/brasil.png" alt="brasil">
+                                </div>
+                                <div class="item-countres-transfers__name">Brasil</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_12">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/poland.png" alt="Poland">
+                                </div>
+                                <div class="item-countres-transfers__name">Poland</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_13">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/turkey.png" alt="Turkey">
+                                </div>
+                                <div class="item-countres-transfers__name">Turkey</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_14">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/thailand.png" alt="Thailand">
+                                </div>
+                                <div class="item-countres-transfers__name">Thailand</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_15">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres//australia.png" alt="Australia">
+                                </div>
+                                <div class="item-countres-transfers__name">Australia</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="one-gogh__start start">
+                <div class="start__container container">
+                    <div class="start__content">
+                        <div class="start__subtitle subtitle">How to start</div>
+                        <h2 class="start__title">How does <span><span>it work?</span></span></h2>
+                        <div class="start__items">
+                            <div class="start__items-column">
+                                <div class="start__item item-start">
+                                    <div class="item-start__number">01</div>
+                                    <div class="item-start__body">
+                                        <div class="item-start__icon">
+                                            <img src="img/start/01.svg" alt="start-img">
+                                        </div>
+                                        <div class="item-start__text">
+                                            <p>
+                                                You submit<br>
+                                                an application.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="start__items-column">
+                                <div class="start__item item-start">
+                                    <div class="item-start__number">02</div>
+                                    <div class="item-start__body">
+                                        <div class="item-start__icon">
+                                            <img src="img/start/02.svg" alt="start-img">
+                                        </div>
+                                        <div class="item-start__text">
+                                            <p>
+                                                We analyze the request and select the optimal solution.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="start__items-column">
+                                <div class="start__item item-start">
+                                    <div class="item-start__number">03</div>
+                                    <div class="item-start__body">
+                                        <div class="item-start__icon">
+                                            <img src="img/start/03.svg" alt="start-img">
+                                        </div>
+                                        <div class="item-start__text">
+                                            <p>
+                                                We finalize the details and prepare the documents within 1–2 days.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="start__items-column">
+                                <div class="start__item item-start">
+                                    <div class="item-start__number">04</div>
+                                    <div class="item-start__body">
+                                        <div class="item-start__icon">
+                                            <img src="img/start/04.svg" alt="start-img">
+                                        </div>
+                                        <div class="item-start__text">
+                                            <p>
+                                                We process the payment and confirm completion.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="one-gogh__advantages advantages" id="benefits">
+                <div class="advantages__container container">
+                    <div class="advantages__body">
+                        <div class="advantages__row">
+                            <div class="advantages__column advantages__column_content">
+                                <div class="advantages__content">
+                                    <div class="advantages__subtitle subtitle">Advantages</div>
+                                    <h2 class="advantages__title">
+                                        Your <span><span>international</span></span><br>
+                                        payments
+                                    </h2>
+                                    <ul class="advantages__list list">
+                                        <li class="list__item">Convenience</li>
+                                        <li class="list__item">Reliability</li>
+                                        <li class="list__item">Security</li>
+                                    </ul>
+                                    <div class="advantages__items">
+                                        <div class="advantages__items-column">
+                                            <div class="advantages__item item-advantages">
+                                                <div class="item-advantages__icon">
+                                                    <img src="img/advantages/icons/01.svg" alt="advantages-icon">
+                                                </div>
+                                                <div class="item-advantages__text">
+                                                    <p>
+                                                        Complete protection of financial transactions
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantages__items-column">
+                                            <div class="advantages__item item-advantages">
+                                                <div class="item-advantages__icon">
+                                                    <img src="img/advantages/icons/02.svg" alt="advantages-icon">
+                                                </div>
+                                                <div class="item-advantages__text">
+                                                    <p>
+                                                        Compliance with legal requirements
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantages__items-column">
+                                            <div class="advantages__item item-advantages">
+                                                <div class="item-advantages__icon">
+                                                    <img src="img/advantages/icons/03.svg" alt="advantages-icon">
+                                                </div>
+                                                <div class="item-advantages__text">
+                                                    <p>
+                                                        Transparency and support at all stages
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages__column advantages__column_image">
+                                <div class="advantages__image">
+                                    <img src="img/advantages/img.png" alt="advantages-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="one-gogh__contacts contact" id="contact">
+                <div class="contact__container container">
+                    <div class="contact__row">
+                        <div class="contact__column contact__column_content">
+                            <div class="contact__subtitle subtitle">CONTACTS</div>
+                            <h2 class="contact__title">
+                                Submit an <span><span>application</span></span>
+                            </h2>
+                            <div class="contact__text">
+                                <p>
+                                    And we will resolve your international<br> payment issues within 1-2 days.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact__column contact__column_form">
+                            <form action="#" class="contact__form form-contact">
+                                <div class="form-contact__row">
+                                    <div class="form-contact__column form-contact__column_big">
+                                        <div class="form-contact__label">Company information</div>
+                                        <div class="form-contact__file">
+                                            <span class="form-contact__file-placeholder">Attach the company card.</span>
+                                            <input autocomplete='off' type='file' name='form[]'
+                                                class='form-contact__input form-contact__input_file'>
+                                            <div class="form-contact__file-name-block">
+                                                <div class="form-contact__file-name"></div>
+                                                <a href="" class="form-contact__file-name-delete">
+                                                    <img src="img/icons/delete.svg" alt="delete">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_medium">
+                                        <div class="form-contact__label">Amount</div>
+                                        <input placeholder="$200 000" autocomplete='off' type='text' name='form[]'
+                                            class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_medium">
+                                        <div class="form-contact__label">Currency</div>
+                                        <div class="form-contact__dropdown-block">
+                                            <div class="form-contact__dropdown dropdown">
+                                                <button class='dropdown__btn'>USD</button>
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__item selected" data-dropdown="USD">USD</li>
+                                                    <li class="dropdown__item" data-dropdown="EUR">EUR</li>
+                                                    <li class="dropdown__item" data-dropdown="CNY">CNY</li>
+                                                    <li class="dropdown__item" data-dropdown="GBP">GBP</li>
+                                                </ul>
+                                                <input type='text' name='form[]' value='USD'
+                                                    class='dropdown__input-hidden'>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_big">
+                                        <div class="form-contact__label">Purpose of the payment</div>
+                                        <input placeholder="For Car" autocomplete='off' type='text' name='form[]'
+                                            class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_big">
+                                        <div class="form-contact__label">E-mail</div>
+                                        <input placeholder="noname@gmail.com" autocomplete='off' type='email'
+                                            name='form[]' class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_big">
+                                        <div class="form-contact__label">Telegram</div>
+                                        <input placeholder="@noname" autocomplete='off' type='text' name='form[]'
+                                            class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__bottom">
+                                        <div class="form-contact__checkbox checkbox">
+                                            <input checked id="formContactCheckbox" autocomplete='off' type='checkbox'
+                                                name='form[]' class='checkbox__input'>
+                                            <label for="formContactCheckbox" class="checkbox__label">
+                                                By filling out the form, you agree<br>
+                                                to the privacy policy.
+                                            </label>
+                                        </div>
+                                        <button type='submit' class='form-contact__btn btn'>
+                                            <span>Submit the application</span>
+                                        </button>
+                                    </div>
+                                    <div class="form-contact__info">
+                                        <p>
+                                            All data is protected. We adhere to strict confidentiality requirements.
+                                        </p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="one-gogh__faq faq">
+                <div class="faq__container container">
+                    <div class="faq__body">
+                        <div class="faq__row">
+                            <div class="faq__column faq__column_title">
+                                <h2 class="faq__title">
+                                    Frequently<br>
+                                    Asked<br>
+                                    <span><span>Questions</span></span>
+                                </h2>
+                            </div>
+                            <div class="faq__column faq__column_content">
+                                <div class="faq__items">
+                                    <div class="faq__item item-faq">
+                                        <div class="item-faq__top top-item-faq">
+                                            <div class="top-item-faq__title">What are the transfer fees?</div>
+                                        </div>
+                                        <div class="item-faq__body">
+                                            <div class="item-faq__text">
+                                                <p>
+                                                    The fee depends on the amount and direction of the transfer.<br>
+                                                    The exact cost can be clarified when submitting the application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item item-faq">
+                                        <div class="item-faq__top top-item-faq">
+                                            <div class="top-item-faq__title">How long does the transfer take?</div>
+                                        </div>
+                                        <div class="item-faq__body">
+                                            <div class="item-faq__text">
+                                                <p>
+                                                    The fee depends on the amount and direction of the transfer.<br>
+                                                    The exact cost can be clarified when submitting the application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item item-faq">
+                                        <div class="item-faq__top top-item-faq">
+                                            <div class="top-item-faq__title">
+                                                Where is your company registered, and what jurisdiction do you operate
+                                                in?
+                                            </div>
+                                        </div>
+                                        <div class="item-faq__body">
+                                            <div class="item-faq__text">
+                                                <p>
+                                                    The fee depends on the amount and direction of the transfer.<br>
+                                                    The exact cost can be clarified when submitting the application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item item-faq">
+                                        <div class="item-faq__top top-item-faq">
+                                            <div class="top-item-faq__title">
+                                                What documents are required for the transfer?
+                                            </div>
+                                        </div>
+                                        <div class="item-faq__body">
+                                            <div class="item-faq__text">
+                                                <p>
+                                                    The fee depends on the amount and direction of the transfer.<br>
+                                                    The exact cost can be clarified when submitting the application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item item-faq">
+                                        <div class="item-faq__top top-item-faq">
+                                            <div class="top-item-faq__title">
+                                                Do you work with individuals?
+                                            </div>
+                                        </div>
+                                        <div class="item-faq__body">
+                                            <div class="item-faq__text">
+                                                <p>
+                                                    The fee depends on the amount and direction of the transfer.<br>
+                                                    The exact cost can be clarified when submitting the application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item item-faq">
+                                        <div class="item-faq__top top-item-faq">
+                                            <div class="top-item-faq__title">
+                                                Can the transfer be paid with cryptocurrency?
+                                            </div>
+                                        </div>
+                                        <div class="item-faq__body">
+                                            <div class="item-faq__text">
+                                                <p>
+                                                    The fee depends on the amount and direction of the transfer.<br>
+                                                    The exact cost can be clarified when submitting the application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item item-faq">
+                                        <div class="item-faq__top top-item-faq">
+                                            <div class="top-item-faq__title">
+                                                How can I start working with your company?
+                                            </div>
+                                        </div>
+                                        <div class="item-faq__body">
+                                            <div class="item-faq__text">
+                                                <p>
+                                                    The fee depends on the amount and direction of the transfer.<br>
+                                                    The exact cost can be clarified when submitting the application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item item-faq">
+                                        <div class="item-faq__top top-item-faq">
+                                            <div class="top-item-faq__title">
+                                                Is personal presence required to send a transfer?
+                                            </div>
+                                        </div>
+                                        <div class="item-faq__body">
+                                            <div class="item-faq__text">
+                                                <p>
+                                                    The fee depends on the amount and direction of the transfer.<br>
+                                                    The exact cost can be clarified when submitting the application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item item-faq">
+                                        <div class="item-faq__top top-item-faq">
+                                            <div class="top-item-faq__title">
+                                                How can I track the status of my transfer?
+                                            </div>
+                                        </div>
+                                        <div class="item-faq__body">
+                                            <div class="item-faq__text">
+                                                <p>
+                                                    The fee depends on the amount and direction of the transfer.<br>
+                                                    The exact cost can be clarified when submitting the application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__row">
+            <div class="footer__column">
+                <a href="index.html" class="footer__logo">
+                    <img src="img/logo-white.svg" alt="logo">
+                </a>
+                <div class="footer__copyright">© 2024 PayGlobal.pro. Все права защищены.</div>
+            </div>
+            <div class="footer__column">
+                <nav class="footer__menu menu-footer">
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a href="" class="menu-footer__link">Privacy policy</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="" class="menu-footer__link">User agreement</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="" class="menu-footer__link">Notification</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="" class="menu-footer__link">Assurance</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

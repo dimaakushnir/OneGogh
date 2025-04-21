@@ -2134,6 +2134,7 @@ main {
   animation: dropShadowInfo 1.3s ease-out infinite;
 }
 .item-solutions__info-btn img {
+  display: inline-block;
   max-width: 100%;
   animation: dropShadowInfoImg 1.3s ease-out infinite;
 }
@@ -3888,7 +3889,7 @@ main {
 .form-contact__file-name {
   font-weight: 450;
   font-size: 12.87px;
-  line-height: 100%;
+  line-height: 127%;
   letter-spacing: -0.01em;
   color: #4F5360;
   margin: 0 19px 0 0;

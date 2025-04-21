@@ -3413,9 +3413,6 @@ main {
   }
 }
 @media (max-width: 480.98px) {
-  .item-start__text {
-    font-size: 12px;
-  }
   .item-start__text br {
     display: none;
   }
@@ -4190,7 +4187,6 @@ main {
 @media (max-width: 1024.98px) {
   .item-faq__text {
     font-size: 17px;
-    padding: 6px 26px 54px 14px;
   }
 }
 @media (max-width: 768.98px) {
@@ -4241,7 +4237,6 @@ main {
 @media (max-width: 1024.98px) {
   .top-item-faq__title {
     font-size: 18px;
-    padding: 0 0 0 14px;
   }
 }
 @media (max-width: 768.98px) {

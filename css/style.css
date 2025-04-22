@@ -2125,21 +2125,14 @@ main {
     margin: 0 20px 0 0;
   }
 }
-.item-solutions__info {
-  filter: drop-shadow(0 0 3px #02aef7) drop-shadow(0 0 8px #02aef7);
-  -webkit-filter: drop-shadow(0 0 3px #02aef7) drop-shadow(0 0 8px #02aef7);
-}
 .item-solutions__info-btn {
   display: inline-flex;
   width: 20px;
   height: 22px;
-  align-items: center;
-  justify-content: center;
+  animation: dropShadowInfo 1.3s ease-out infinite;
 }
 .item-solutions__info-btn img {
-  display: inline-block;
   max-width: 100%;
-  animation: dropShadowInfoImg 1.3s ease-out infinite;
 }
 .item-solutions__title {
   font-weight: 700;
@@ -2187,55 +2180,16 @@ main {
   0% {
     filter: drop-shadow(0 0 0 0) drop-shadow(0 0 0 0);
     -webkit-filter: drop-shadow(0 0 0 0) drop-shadow(0 0 0 0);
+    transform: scale(1);
   }
   50% {
     filter: drop-shadow(0 0 3px #02aef7) drop-shadow(0 0 8px #02aef7);
     -webkit-filter: drop-shadow(0 0 3px #02aef7) drop-shadow(0 0 8px #02aef7);
+    transform: scale(1.1);
   }
   100% {
     filter: drop-shadow(0 0 0 0) drop-shadow(0 0 0 0);
     -webkit-filter: drop-shadow(0 0 0 0) drop-shadow(0 0 0 0);
-  }
-}
-@keyframes dropShadowInfo1 {
-  0% {
-    filter: drop-shadow(0 0 0 0);
-    -webkit-filter: drop-shadow(0 0 0 0);
-  }
-  50% {
-    filter: drop-shadow(0 0 8px #02aef7);
-    -webkit-filter: drop-shadow(0 0 8px #02aef7);
-  }
-  100% {
-    filter: drop-shadow(0 0 0 0);
-    -webkit-filter: drop-shadow(0 0 0 0);
-  }
-}
-@keyframes dropShadowInfo2 {
-  0% {
-    filter: drop-shadow(0 0 0 0);
-    -webkit-filter: drop-shadow(0 0 0 0);
-    transform: scale(1);
-  }
-  50% {
-    filter: drop-shadow(0 0 3px #02aef7);
-    -webkit-filter: drop-shadow(0 0 3px #02aef7);
-    transform: scale(1.1);
-  }
-  100% {
-    filter: drop-shadow(0 0 0 0);
-    -webkit-filter: drop-shadow(0 0 0 0);
-    transform: scale(1);
-  }
-}
-@keyframes dropShadowInfoImg {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
     transform: scale(1);
   }
 }

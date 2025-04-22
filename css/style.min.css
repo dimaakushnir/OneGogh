@@ -2125,18 +2125,20 @@ main {
     margin: 0 20px 0 0;
   }
 }
+.item-solutions__info {
+  animation: dropShadowInfo 1.3s ease-out infinite;
+}
 .item-solutions__info-btn {
   display: inline-flex;
   width: 20px;
   height: 22px;
   align-items: center;
   justify-content: center;
-  animation: dropShadowInfo1 1.3s ease-out infinite;
 }
 .item-solutions__info-btn img {
   display: inline-block;
   max-width: 100%;
-  animation: dropShadowInfo2 1.3s ease-out infinite;
+  animation: dropShadowInfoImg 1.3s ease-out infinite;
 }
 .item-solutions__title {
   font-weight: 700;
@@ -2180,6 +2182,20 @@ main {
   }
 }
 
+@keyframes dropShadowInfo {
+  0% {
+    filter: drop-shadow(0 0 0 0) drop-shadow(0 0 0 0);
+    -webkit-filter: drop-shadow(0 0 0 0) drop-shadow(0 0 0 0);
+  }
+  50% {
+    filter: drop-shadow(0 0 3px #02aef7) drop-shadow(0 0 8px #02aef7);
+    -webkit-filter: drop-shadow(0 0 3px #02aef7) drop-shadow(0 0 8px #02aef7);
+  }
+  100% {
+    filter: drop-shadow(0 0 0 0) drop-shadow(0 0 0 0);
+    -webkit-filter: drop-shadow(0 0 0 0) drop-shadow(0 0 0 0);
+  }
+}
 @keyframes dropShadowInfo1 {
   0% {
     filter: drop-shadow(0 0 0 0);

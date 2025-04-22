@@ -2126,7 +2126,8 @@ main {
   }
 }
 .item-solutions__info {
-  animation: dropShadowInfo 1.3s ease-out infinite;
+  filter: drop-shadow(0 0 3px #02aef7) drop-shadow(0 0 8px #02aef7);
+  -webkit-filter: drop-shadow(0 0 3px #02aef7) drop-shadow(0 0 8px #02aef7);
 }
 .item-solutions__info-btn {
   display: inline-flex;
